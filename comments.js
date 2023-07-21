@@ -8,6 +8,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+
 // 2. read the file that contains the comments
 const fs = require('fs')
 const comments = JSON.parse(fs.readFileSync('./comments.json', 'utf8'))
